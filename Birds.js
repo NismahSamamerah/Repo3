@@ -7,6 +7,7 @@ class Birds {
     }
     eat(){ };
     talk(){ };
+    walk(){ }
 }
 class FlayebleBird extends Birds {
     constructor(name , type){
@@ -26,6 +27,7 @@ class chicken extends Birds {
         console.log('chicken talk');
 
     }
+
 }
 class   Dove extends FlayebleBird {
     constructor(name , type){
